@@ -1,0 +1,32 @@
+<?php
+       $agrade = "";
+
+       if($artsTotalScore>=90)
+       {
+           $agrade="A+";
+       }
+       elseif($artsTotalScore>=80)
+       {
+           $agrade="A";
+       }
+       elseif($artsTotalScore>=70)
+       {
+           $agrade="B+";
+       }
+       elseif($artsTotalScore>=60)
+       {
+           $agrade="B";
+       }
+       elseif($artsTotalScore>=50)
+       {
+           $agrade="C";
+       }
+       elseif($artsTotalScore>=40)
+       {
+           $agrade="D";
+       }
+       else
+       {
+           $agrade="F";
+       }
+?>
